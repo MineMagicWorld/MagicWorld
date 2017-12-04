@@ -12,6 +12,10 @@ function MainScene:onCreate()
         :move(display.cx, display.cy + 200)
         :addTo(self)
 
+    local ControllerSystemLayer = require("app.views.ControllerSystemLayer")
+
+    ControllerSystemLayer:new()
+        :addTo(self)
 end
 
 return MainScene
