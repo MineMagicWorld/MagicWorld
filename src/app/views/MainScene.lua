@@ -1,5 +1,6 @@
 
 local MainScene = class("MainScene", cc.load("mvc").ViewBase)
+local ControllerSystemCtrl = import("..controller.ControllerSystemCtrl")
 
 function MainScene:onCreate()
     -- add background image
@@ -12,6 +13,7 @@ function MainScene:onCreate()
         :move(display.cx, display.cy + 200)
         :addTo(self)
 
+    ControllerSystemCtrl:create(self)
 end
 
 return MainScene
