@@ -1,0 +1,5 @@
+{
+    "luaide.scriptRoots": [
+        "${workspaceRoot}/src"
+    ]
+}
