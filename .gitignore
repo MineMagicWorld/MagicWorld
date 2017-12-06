@@ -134,3 +134,4 @@ project.properties
 simulator/
 frameworks/
 runtime/
+.vscode/
