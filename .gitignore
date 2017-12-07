@@ -135,3 +135,6 @@ simulator/
 frameworks/
 runtime/
 .vscode/
+creator/library/
+creator/local/
+creator/build/
